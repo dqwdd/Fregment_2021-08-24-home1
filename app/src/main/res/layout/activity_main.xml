@@ -13,4 +13,9 @@
         android:tag="첫 프래그먼트"
         class="com.example.fregment_2021_08_24_home.fragments.FirstFragment"/>
 
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        class="com.example.fregment_2021_08_24_home.fragments.SecondFragment"
+        android:tag="두 번째 프래그먼트"/>
 </LinearLayout>

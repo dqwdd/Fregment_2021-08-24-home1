@@ -7,23 +7,35 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <fragment
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:tag="첫 프래그먼트"
-        class="com.example.fregment_2021_08_24_home.fragments.FirstFragment"/>
+        android:layout_height="match_parent">
 
-    <fragment
-        android:layout_width="match_parent"
-        android:layout_height="400dp"
-        class="com.example.fregment_2021_08_24_home.fragments.SecondFragment"
-        android:tag="secondFrag"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <fragment
-        android:layout_width="match_parent"
-        android:layout_height="350dp"
-        class="com.example.fregment_2021_08_24_home.fragments.FirstFragment"
-        android:tag="FirstFrag"/>
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:tag="첫 프래그먼트"
+                class="com.example.fregment_2021_08_24_home.fragments.FirstFragment"/>
 
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                class="com.example.fregment_2021_08_24_home.fragments.SecondFragment"
+                android:tag="secondFrag"/>
+
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                class="com.example.fregment_2021_08_24_home.fragments.FirstFragment"
+                android:tag="FirstFrag"/>
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </LinearLayout>

@@ -29,8 +29,9 @@ class FirstFragment : Fragment() {
 //    먼저 만들어 놓고 그 다음에 올리는 거임
 //    ==> 프래그먼트의 onCreate는 화면도 준비되기 전 -> 동작시키면 에러 소지가 높다
 
-    override fun onAttach(context: Context) {
-        super.onAttach(context)
+
+    override fun onActivityCreated(savedInstanceState: Bundle?) {
+        super.onActivityCreated(savedInstanceState)
 
         logBtn.setOnClickListener {
             Log.d("부품에서 찍기", "로그 버튼이 눌림")
@@ -38,3 +39,4 @@ class FirstFragment : Fragment() {
     }
 
 }
+

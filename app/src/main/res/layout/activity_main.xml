@@ -10,6 +10,7 @@
     <fragment
         android:layout_width="match_parent"
         android:layout_height="250dp"
+        android:tag="첫 프래그먼트"
         class="com.example.fregment_2021_08_24_home.fragments.FirstFragment"/>
 
 </LinearLayout>

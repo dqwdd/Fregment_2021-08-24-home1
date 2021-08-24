@@ -19,10 +19,10 @@ class FirstFragment : Fragment() {
     override fun onCreate(
         inflater: LayoutInflater,
         container : ViewGroup?,
-        savedInstanceState: Bundle?
-    ) : View? {
+        savedInstanceState: Bundle?) : View? {
         return inflater.inflate(R.layout.fragment_first, container, false)
     }
+
 
 //    동작 관련 코드들이 작성되는 함수 => 액티비티 : onCreate
 //    이 클래스는 화면이 만들어진게 아니라 올라간 부품이 만들어 진거임

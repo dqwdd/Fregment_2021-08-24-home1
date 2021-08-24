@@ -32,9 +32,9 @@ class FirstFragment : Fragment() {
     override fun onAttach(context: Context) {
         super.onAttach(context)
 
-        logBtn.setOnCreateContextMenuListener(
+        logBtn.setOnClickListener {
             Log.d("부품에서 찍기", "로그 버튼이 눌림")
-        )
+        }
     }
 
 }

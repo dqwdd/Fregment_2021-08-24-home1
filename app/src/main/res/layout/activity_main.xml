@@ -7,9 +7,9 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        class="com.example.fregment_2021_08_24_home.fragments.FirstFragment"/>
 
 </LinearLayout>

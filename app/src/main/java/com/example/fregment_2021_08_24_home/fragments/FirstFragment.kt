@@ -16,7 +16,7 @@ class FirstFragment : Fragment() {
 //    kt단에서 어떤 xml을 쓸지 연결 (전용 함수 존재)
 
 
-    override fun onCreate(
+    override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?) : View? {
